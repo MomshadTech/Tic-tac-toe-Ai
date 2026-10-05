@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Safe zone is centered around (54,54), 66dp diameter (radius 33, from x=21 to 87, y=21 to 87) -->
+    <!-- Tic-tac-toe grid lines -->
+    <!-- Vertical line 1 -->
+    <path
+        android:pathData="M43,26 L43,82"
+        android:strokeWidth="3.5"
+        android:strokeColor="#4A5568"
+        android:strokeLineCap="round" />
+    <!-- Vertical line 2 -->
+    <path
+        android:pathData="M65,26 L65,82"
+        android:strokeWidth="3.5"
+        android:strokeColor="#4A5568"
+        android:strokeLineCap="round" />
+    <!-- Horizontal line 1 -->
+    <path
+        android:pathData="M26,43 L82,43"
+        android:strokeWidth="3.5"
+        android:strokeColor="#4A5568"
+        android:strokeLineCap="round" />
+    <!-- Horizontal line 2 -->
+    <path
+        android:pathData="M26,65 L82,65"
+        android:strokeWidth="3.5"
+        android:strokeColor="#4A5568"
+        android:strokeLineCap="round" />
+
+    <!-- Human 'X' in top-left cell (center ~34, 34) -->
+    <path
+        android:pathData="M29,29 L40,40 M40,29 L29,40"
+        android:strokeWidth="4"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Gemini AI 'O' in center cell (center 54, 54, radius 6.5) -->
+    <path
+        android:pathData="M54,47.5 A6.5,6.5 0 1,0 54,60.5 A6.5,6.5 0 1,0 54,47.5"
+        android:strokeWidth="4"
+        android:strokeColor="#C084FC"
+        android:strokeLineCap="round" />
+
+    <!-- Another 'X' in bottom-right cell (center ~74, 74) -->
+    <path
+        android:pathData="M69,69 L79,79 M79,69 L69,79"
+        android:strokeWidth="4"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Gemini 4-pointed sparkle star in top-right cell (center ~74, 34) representing Gemini AI -->
+    <path
+        android:pathData="M74,27 C74,31 77,34 81,34 C77,34 74,37 74,41 C74,37 71,34 67,34 C71,34 74,31 74,27 Z"
+        android:fillColor="#F472B6" />
+
+    <!-- Tiny AI sparkle in bottom-left cell -->
+    <path
+        android:pathData="M34,70 C34,72 36,74 38,74 C36,74 34,76 34,78 C34,76 32,74 30,74 C32,74 34,72 34,70 Z"
+        android:fillColor="#818CF8" />
+
+</vector>
